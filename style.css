@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.877);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 1000;
+}
+
+#rightbar {
+  margin-top: 7px;
+}
+
+#globe {
+}
+
+#rightbar select {
+  padding: 7px 15px;
+  border-radius: 3px;
+  margin-right: 10px;
+  border-style: none;
+  outline: none;
+}
+#rightbar select:hover {
+  cursor: pointer;
+}
+#rightbar button:hover {
+  cursor: pointer;
+  font-weight: 1000;
+}
+
+#rightbar button {
+  padding: 7px 15px;
+  border-radius: 3px;
+  background-color: rgb(208, 0, 0);
+  border-style: none;
+  outline: none;
+}
+
+#content {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 250px;
+}
+
+#content h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 10px;
+}
+#content h4 {
+  margin-top: -20px;
+  font-size: 50px;
+}
+
+#content h2 {
+  padding: 10px;
+}
+
+#content h3 {
+  padding: 10px;
+}
+
+#innerContent {
+  padding: 10px;
+}
+
+#innercontent input {
+  width: 600px;
+  height: 60px;
+  padding: 10px;
+  outline: none;
+  border-style: none;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  padding-top: 14px;
+}
+
+::placeholder {
+  font-weight: 800;
+  font-size: 20px;
+  color: rgb(58, 58, 58);
+}
+
+#innercontent button {
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  outline: none;
+  border-style: none;
+  border-radius: 2px;
+  margin-left: -5px;
+  background-color: rgb(208, 0, 0);
+  font-size: 20;
+}
+
+#innercontent button:hover {
+  cursor: pointer;
+  font-weight: 1000;
+}
+
+#content2 {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#content2 h1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+#content2 h2 {
+  margin: 20px;
+  padding: 10px;
+  margin-top: -30px;
+  font-size: 25px;
+}
+
+#content2 h3 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: -40px;
+}
+
+#content2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#vidpart img {
+  height: 300px;
+  width: 500px;
+  /* border-radius: 15px 50px; */
+  box-shadow: 5px 5px 30px rgb(52, 70, 232);
+}
+
+#content3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 50px;
+}
+#txtpart2 {
+  margin-top: 70px;
+}
+#content3 h1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+#content3 h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+#content3 h3 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+#imgpart img {
+  height: 500px;
+  width: 500px;
+}
+
+#content4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 50px;
+}
+#content4 h1 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+#content4 h2 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: -25px;
+}
+#content4 h3 {
+  margin: 20px;
+  padding: 10px;
+  font-size: 50px;
+  margin-top: -50px;
+}
+#textpart3 {
+  margin-top: 70px;
+}
+#freq {
+  padding: 100px;
+  padding-top: 50px;
+}
+#qstn {
+  margin-top: 40px;
+}
+
+#qstn li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  font-size: 25px;
+  margin: 15px;
+  background-color: rgba(49, 48, 48, 0.679);
+  padding: 10px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+#qstn a {
+  text-decoration: none;
+  color: white;
+}
+
+#freq h1 {
+  font-size: 50px;
+}
+
+#qstn i {
+  padding: 10px;
+}
+
+#support {
+  display: flex;
+  margin: 50px 400px;
+  justify-content: space-between;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
+}
+#support li {
+  list-style: none;
+  padding: 10px;
+  font-size: 15px;
+}
+#support li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
